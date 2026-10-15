@@ -1,0 +1,98 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    font-family: Georgia, serif;
+    color: #5b7777;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #b7e2df;
+}
+
+#header {
+    background-color: #a3eeea;
+    border: 3px solid #c5e7e5;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#subtitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#friends {
+    float: left;
+    width: 190px;
+    background-color: #45d2c5;
+    border: 4px solid #258f89;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#friends h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#friends ul {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+#journal {
+    margin-left: 200px;
+}
+
+.entry {
+    background-color: #e5f7f6;
+    border: 3px solid #c2e3e1;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.entry h2 {
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.date {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.entry p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.entry img {
+    float: right;
+    width: 140px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0 0 8px 10px;
+    border: 2px solid white;
+}
+
+.clear {
+    clear: both;
+}
